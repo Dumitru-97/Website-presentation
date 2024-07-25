@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    background-image: linear-gradient(to right, rgb(184, 197, 187) , rgb(198, 193, 144));
+
+}
+.first{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+ text-align: center;
+    padding-top: 70px;
+
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+.flex-1{
+    margin-right:50px;
+    margin-left: 200px;
+    padding: 20px;
+    padding-right: 100px;
+    border-radius: 2rem;
+    border-style:none;
+    background-image: linear-gradient(to right, rgb(150, 204, 162) , rgba(11, 87, 22, 0.849));
+}
+#title{
+    font-size: 40px;
+}
+#id-1{
+    font-size: 50px;
+    margin-left: 40px;
+}
+#link{
+    color:rgb(130, 6, 6);
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#text{
+    color:black;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.flex-2{
+margin-left: 100px;
+    margin-right: 200px;
+    padding: 10px;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: white;
+}
+#h3{
+font-weight: bold;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+    
+}
+#battery{
+    margin-left: 100px;
+}
+
+#clock{
+margin-top: 100px;
+margin-left: 100px;
+}
+#link-2{
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+#q-a{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#prices{
+    margin-top: 100px;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    color: rgb(59, 55, 55);
+    font-weight: lighter;
+    font-size: 20px;
+}
+#button{
+display: flex;
+justify-content: center;
+border-style: none;
+margin-top: 10px;
+cursor: pointer;
+border-radius: 2rem;
+margin-left: 30%;
+margin-right: 30%;
+text-decoration: none;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: rgb(20, 27, 149);
+color:white;
+font-size: 20px;
+}
+
+.cont-1{
+    margin-right: 100px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 2rem;
+    border-style:none;
+    background-image: linear-gradient(to right, rgb(150, 204, 162) , rgba(11, 87, 22, 0.849));
+}
+#title-1{
+    font-size: 40px;
+}
+#id-2{
+    font-size: 50px;
+    margin-left: 40px;
+}
+#link-1{
+    color:rgb(130, 6, 6);
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#text-1{
+    color:black;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.cont-2{
+
+    margin-right: 200px;
+    padding: 20px;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: white;
+}
+#h3-1{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+#link-3{
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+
+.cont-{
+    margin-top: 100px;
+    display: flex;
+ gap: 30px;
+}
+.cont-II{
+
+ margin-top: 100px;
+   
+    padding: 20px;
+    border-radius: 2rem;
+    border-style:none;
+    background-image: linear-gradient(to right, rgb(150, 204, 162) , rgba(11, 87, 22, 0.849));
+}
+#answer{
+    font-size: 40px;
+}
+#id-3{
+    font-size: 50px;
+    margin-left: 40px;
+}
+#link-2{
+    color:rgb(130, 6, 6);
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#text-2{
+    color:black;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.cont-I{
+    display: flex;
+    justify-content: center;
+}
+
+#h3-{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+#prices{
+    margin-top: 100px;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    color: rgb(59, 55, 55);
+    font-weight: lighter;
+    font-size: 20px;
+}
+#button{
+display: flex;
+justify-content: center;
+border-style: none;
+margin-top: 10px;
+cursor: pointer;
+border-radius: 2rem;
+margin-left: 30%;
+margin-right: 30%;
+text-decoration: none;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: rgb(20, 27, 149);
+color:white;
+font-size: 20px;
+}
+footer{
+    background-color: rgb(16, 16, 16);
+    border-style:none;
+    padding: 50px;
+    font-size: 25px;
+    margin-top: 70px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 50px;
+
+}
+a{
+    color:white;
+}
+#facebook{
+color:black
+}
+.social{
+    width: 40px;
+    border-radius: 1rem;
+    background-color: white;
+    color: white;
+
+}
+a:hover{
+    color: rgb(87, 79, 79);
+    }
+
+
+
+@media screen and (max-width: 768px){
+    
+    body{
+        display: block;
+    }
+    .container{display: block;
+}
+.flex-1{
+    display: block;
+}
+.flex-2{
+    display: block;
+}
+}

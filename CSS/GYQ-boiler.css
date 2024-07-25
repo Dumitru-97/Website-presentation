@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(123, 208, 141) , rgb(202, 191, 68));
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+input{
+margin-left: 550px;
+ border-radius: 3rem;
+ padding: 15px;
+ padding-right: 30px;
+ padding-left: 30px;
+ border-style: none;
+ background-color: rgb(181, 87, 73);
+ color: rgb(16, 13, 13);
+ font-family: sans-serif;
+ text-align: center;
+font-weight: bold;
+font-size: 25px;
+}
+::placeholder{
+
+  font-family:cursive;
+    color: rgb(65, 53, 53);
+}
+h1{
+    
+     padding-top: 150px; 
+     font-size: 50px;
+     font-family:sans-serif;
+     color: rgb(57, 53, 53);
+     }
+     #submit{
+        border-radius: 3rem;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+margin-left: 580px;
+        margin-top: 50px;
+        background-color: rgb(5, 23, 222);
+        color: whitesmoke;
+  font-size: 20px;
+        font-weight: bold;
+cursor: pointer;
+     }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="form-email.css">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div>
+    <div class="container">
+    <form action="https://formsubmit.co/dumitrucirtan@gmail.com" method="POST" id="form">
+      
+    <h2>Contact Us</h2>
+    <label for="text">Full Name</label>
+    <input type="text" id="F-name" placeholder="e.g John Mark" required>
+    <label for="text">Phone Number</label>
+    <input type="text" id="p-number" placeholder="e.g. 007544467997"  minlength="10"><br>
+<label for="email">Email</label><br>
+<input type="email" id="email" placeholder="e.g.email@Example.com"  required><br>
+<label for="textarea">Message</label><br>
+<textarea name="Message" id="text-area" cols="55" rows="3"></textarea>
+<br>
+
+<div class="g-recaptcha" data-sitekey="6LeORAEqAAAAABpx7isk82v1Mqt6_X_kvG8rpLjf"></div> <br>
+<input id="submit" type="submit" value="Send">
+
+    </form>
+    </div>
+    <div></div>
+</body>
+</html>

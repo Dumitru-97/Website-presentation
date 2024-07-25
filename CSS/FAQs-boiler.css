@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background: #e3edf7;
+   font-family: sans-serif; 
+}
+h1{
+    
+    margin-top: 100px;
+    font-size: 50px;
+    color: rgb(29, 28, 28);
+    display: flex;
+    justify-content: center;
+}
+.accordion{
+
+    margin:60px auto;
+    width: 600px;
+}
+.accordion li{
+
+    list-style: none;
+    width: 100%;
+    margin:20px;
+    padding:10px;
+    border-radius: 8px;
+    background: #e3edf7;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+.accordion li label{
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+label::before{
+    content: "+";
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600; 
+   
+}
+input[type="radio"]{
+    display: none;
+;
+}
+.accordion .content{
+
+    color:#272121;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+
+    max-height:400px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before{
+
+    content:'-';
+}
+#subtitle{
+    font-size: 50px;
+    color: rgb(29, 28, 28);
+    display: flex;
+    justify-content: center;
+}
+.check{
+    font-size: 25px;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+}
+#prices{
+    margin-top: 100px;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    color: rgb(59, 55, 55);
+    font-weight: lighter;
+    font-size: 20px;
+}
+#button{
+display: flex;
+justify-content: center;
+border-style: none;
+margin-top: 10px;
+cursor: pointer;
+border-radius: 2rem;
+margin-left: 30%;
+margin-right: 30%;
+text-decoration: none;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: rgb(25, 17, 173);
+color:white;
+font-size: 20px;
+}
+footer{
+    background-color: rgb(173, 214, 214);
+    border-style:none;
+    padding: 50px;
+    font-size: 25px;
+    margin-top: 70px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 50px;
+
+}
+a{
+    color:rgb(0, 0, 0);
+}
+#facebook{
+color:black
+}
+.social{
+    width: 40px;
+    border-radius: 1rem;
+    background-color: white;
+    color: white;
+
+}
+a:hover{
+    color: rgb(123, 22, 22);
+    }
